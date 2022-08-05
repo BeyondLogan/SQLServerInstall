@@ -12,4 +12,18 @@ sudo apt-get install gparted
 
 sudo apt-get install geparted
 
-echo Plz Enter This Command But Ween Entering Change The Your Password To Yours 'sqlcmd -S localhost -U sa -P <YourPassword>'
+echo Downloading New Project And Installing Plz Wait
+
+git clone https://github.com/BeyondLogan/OpenGamePassInstaller.git
+
+cd OpenGamePassInstaller
+
+sudo chmod +x SetUp.sh
+
+sudo chmod +x SetUp2.sh
+
+sudo chmod +x SetUp3Reboot.sh
+
+Echo Downloaded Running Now
+
+sudo sh SetUp.sh
